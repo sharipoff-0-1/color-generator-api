@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Color Generator</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <form id="form">
+          <input id="color-picker" type="color" />
+          <select name="scheme" id="color-scheme">
+            <option selected value="monochrome">Monochrome</option>
+            <option value="monochrome-dark">Monochrome-dark</option>
+            <option value="monochrome-light">Monochrome-light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic-complement</option>
+            <option value="triad">Triad</option>
+          </select>
+          <input class="btn" type="submit" value="Get color scheme" id="submitBtn"></input>
+        </form>
+      </header>
+      <section class="colors">
+        <div class="color one"></div>
+        <div class="color two"></div>
+        <div class="color three"></div>
+        <div class="color four"></div>
+        <div class="color five"></div>
+      </section>
+      <section class="hex-values">
+        <div class="hex">#F55a5a</div>
+        <div class="hex">#2b283a</div>
+        <div class="hex">#fbf3ab</div>
+        <div class="hex">#aad1b6</div>
+        <div class="hex">#a626d3</div>
+      </section>
+      <p>Copied!</p>
+
+      <img src="" alt="">
+    </main>
+
+    
+  </body>
+</html>

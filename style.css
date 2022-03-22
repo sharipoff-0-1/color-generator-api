@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 60vw;
+  min-height: 70vh;
+  display: grid;
+  grid-template-rows: 60px 1fr 50px;
+  border: 1px solid #c4dbcb;
+}
+
+form,
+.hex-values {
+  background-color: #c4dbcb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 2rem;
+}
+
+select {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+p {
+  background-color: #333;
+  color: #fff;
+  width: 10rem;
+  height: 2rem;
+  letter-spacing: 3px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.3rem;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  visibility: hidden;
+}
+
+.copied {
+  visibility: visible;
+}
+
+.colors {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  position: relative;
+}
+
+.one {
+  background-color: #f55a5a;
+}
+.two {
+  background-color: #2b283a;
+}
+.three {
+  background-color: #fbf3ab;
+}
+.four {
+  background-color: #c4dbcb;
+}
+.five {
+  background-color: #a626d3;
+}
